@@ -43,6 +43,9 @@ body {
 .destination:hover h2 {
     transform: rotate(0deg);
 }
+.destination:hover h3 {
+    transform: rotate(0deg);
+}
 
 h2 {
     margin: 0;
@@ -51,6 +54,12 @@ h2 {
     text-shadow: 0 0 5px #01579b;
 }
 
+h2 {
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 4px #01579b;
+}
 #belize {
     background-color: #4dd0e1;
 }
